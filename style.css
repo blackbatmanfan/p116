@@ -1,0 +1,22 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: red;
+}
+
+canvas
+{
+    animation-name: qwerty;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes qwerty
+{
+    from {box-shadow: 1px 1px 38px rgb(0, 160, 196)}
+    to {box-shadow: 1px 1px 38px rgba(249, 87, 0, 1.00)}
+}
